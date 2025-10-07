@@ -12,7 +12,7 @@ Dibangun dengan **PHP PDO** untuk keamanan koneksi database dan **Bootstrap 5** 
 
 - **8 CASE Analisis Data:**
   - CASE A: Total Biaya per Pesanan & Kelompok
-    ![CASE A](./assets/CASE_A.png)
+    ![CASE A](Database-Web-Query/assets/CASE_A.png)
 
   - CASE B: Total Biaya per Bulan & Kelompok  
     ![CASE B](./assets/CASE_B.png)
