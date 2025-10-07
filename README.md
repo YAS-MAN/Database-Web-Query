@@ -12,43 +12,43 @@ Dibangun dengan **PHP PDO** untuk keamanan koneksi database dan **Bootstrap 5** 
 
 - **8 CASE Analisis Data:**
   - CASE A: Total Biaya per Pesanan & Kelompok
-    ![CASE A](Database-Web-Query/assets/CASE_A.png)
+    ![CASE A](./asset/CASE_A.png)
 
   - CASE B: Total Biaya per Bulan & Kelompok  
-    ![CASE B](./assets/CASE_B.png)
+    ![CASE B](./asset/CASE_B.png)
     
   - CASE C: Total Biaya per Jenis Produksi & Kelompok  
-    ![CASE C](./assets/CASE_C.png)
+    ![CASE C](./asset/CASE_C.png)
   
   - CASE D: Analisis Biaya Produksi per Unit  
-    ![CASE D](./assets/CASE_D.png)
+    ![CASE D](./asset/CASE_D.png)
 
   - CASE E: Statistik Biaya (rata-rata, max, min)  
-    ![CASE E](./assets/CASE_E.png)
+    ![CASE E](./asset/CASE_E.png)
 
   - CASE F: Biaya Pesanan Khusus "Sepatu"  
-    ![CASE F](./assets/CASE_F.png)
+    ![CASE F](./asset/CASE_F.png)
 
   - CASE G: Total Pesanan > 20 Juta  
-    ![CASE G](./assets/CASE_G.png)
+    ![CASE G](./asset/CASE_G.png)
 
   - CASE H: Pesanan Biaya Tertinggi  
-    ![CASE H](./assets/CASE_H.png)
+    ![CASE H](./asset/CASE_H.png)
 
 - **Tampilan Data Awal:**  
   Menampilkan tabel `kartupesanan` dan `rincianbiaya` untuk memberikan konteks sumber data sebelum hasil query.
-    ![TABLE DATA](./assets/TABLE_DATA.png)
+    ![TABLE DATA](./asset/TABLE_DATA.png)
 
 - **Aksi Dinamis:**  
   Setiap case memiliki tombol:
   - 🔍 **Detail:** menampilkan informasi detail data
-    ![DETAIL](./assets/ACTION_DETAIL.png)
+    ![DETAIL](./asset/ACTION_DETAIL.png)
     
   - ✏️ **Edit:** mengubah data transaksional
-    ![DETAIL](./assets/ACTION_EDIT.png)
+    ![DETAIL](./asset/ACTION_EDIT.png)
     
   - 🗑️ **Delete:** menghapus data tertentu  
-    ![DETAIL](./assets/ACTION_DELETE.png)
+    ![DETAIL](./asset/ACTION_DELETE.png)
   
   Tombol edit/delete hanya muncul pada data yang memiliki *kunci unik (Nomor Pesanan)* dan bisa dimodifikasi langsung.
 
